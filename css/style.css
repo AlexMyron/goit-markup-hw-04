@@ -362,6 +362,9 @@ a.logo > span {
 .team-list-item > .social-links {
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.social-links {
   display: flex;
 }
 
@@ -378,6 +381,11 @@ a.logo > span {
 
 .social-links > .item:not(:first-child) {
   margin-left: 10px;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  background-color: var(--accent-color);
 }
 
 .social-links .icon-instagram {
@@ -401,14 +409,14 @@ a.logo > span {
   background-color: var(--hero-footer-bg-color);
 }
 
-.footer > .container {
+.footer-wrapper {
   display: block;
+  margin-bottom: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-bottom: 0;
 }
 
-.container > .footer-logo {
+.footer-wrapper > .footer-logo {
   margin-bottom: 20px;
   color: var(--white-color);
 }
@@ -438,6 +446,40 @@ a.logo > span {
   letter-spacing: 0.03em;
 
   text-decoration: none;
+}
+
+.footer .footer-slogan {
+  margin-left: 70px;
+  padding-top: 72px;
+}
+
+.footer-slogan > .title-slogan {
+  margin-bottom: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-body-bg-color);
+}
+
+.social-links .footer-link {
+  background-color: #44454E;
+}
+
+.footer-link.icon-instagram {
+  background-image: url(../images/instagram-footer.svg);
+}
+
+.footer-link.icon-twitter {
+  background-image: url(../images/twitter-footer.svg);
+}
+.footer-link.icon-facebook {
+  background-image: url(../images/facebook-footer.svg);
+}
+.footer-link.icon-linkedin {
+  background-image: url(../images/linkedin-footer.svg);
 }
 
 /* _________________ */

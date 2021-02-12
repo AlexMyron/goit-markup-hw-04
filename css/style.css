@@ -140,6 +140,27 @@ a.logo > span {
   letter-spacing: 0.02em;
 
   text-decoration: none;
+
+  outline: 1px solid #2196F3;
+}
+
+.address-item > .link::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  margin-right: 10px;
+  
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.address-item > .icon-envelope::before {
+  background-image: url(../images/envelope.svg);
+}
+
+.address-item > .icon-smartphone::before {
+  background-image: url(../images/smartphone.svg);
 }
 
 .address-item > .link:hover, .address-item > .link:focus {
@@ -155,6 +176,8 @@ a.logo > span {
   margin-right: auto;
 
   background-color: var(--hero-footer-bg-color);
+  background-image: url(../images/hero-bg.jpg);
+  
 }
 
 .hero > .container {

@@ -9,6 +9,7 @@
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
   --border-color: #ECECEC;
+  --social-link-color: #AFB1B8;
 }
 
 body {
@@ -166,6 +167,10 @@ a.logo > span {
   margin-right: auto;
 
   background-color: var(--hero-footer-bg-color);
+  background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .hero > .container {
@@ -262,6 +267,22 @@ a.logo > span {
   text-align: left;
 }
 
+.features-item > .thumb {
+  padding: 25px 0;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+  background-color: var(--secondary-body-bg-color);
+}
+
+.features-icon {
+  width: 70px;
+  height: 70px;
+}
+
 /* Work */
 .work {
   padding-bottom: 94px;
@@ -316,6 +337,116 @@ a.logo > span {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+/* SOCIAL-LIST */
+.social-list {
+  display: flex;
+  margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  background-color: transparent;
+}
+
+.social-list > .item {
+  
+}
+
+.social-list > .item + .item {
+  margin-left: 10px;
+}
+
+.social-list .link {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+
+  color: var(--social-link-color);
+}
+
+.social-list .link:hover,
+.social-list .link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+
+  fill: currentColor;
+}
+
+/* Clients */
+.clients > .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  display: block;
+}
+.clients .subtitle {
+  margin-bottom: 50px;
+}
+
+.clients .clients-list {
+  display: flex;
+}
+
+.clients-list > .item + .item {
+  margin-left: 30px;
+}
+
+.clients-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  padding: 0;
+  border: 1px solid var(--social-link-color);
+  border-radius: 4px;
+
+  color: var(--social-link-color);
+}
+
+.clients-list .link:hover,
+.clients-list .link:focus {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client-icon.logo-1 {
+  width: 44px;
+  /* height: 49px; */
+}
+
+.client-icon.logo-2 {
+  width: 40px;
+  /* height: 52px; */
+}
+
+.client-icon.logo-3 {
+  width: 41px;
+  /* height: 34px; */
+}
+
+.client-icon.logo-4 {
+  width: 80px;
+  /* height: 42px; */
+}
+
+.client-icon.logo-5 {
+  width: 59px;
+  /* height: 47px; */
+}
+
+.client-icon.logo-6 {
+  width: 88px;
 }
 
 /* Footer */

@@ -10,6 +10,7 @@
   --secondary-body-bg-color: #F5F4FA;
   --border-color: #ECECEC;
   --social-link-color: #AFB1B8;
+  --footer-link-color: #44454E;
 }
 
 body {
@@ -422,27 +423,22 @@ a.logo > span {
 
 .client-icon.logo-1 {
   width: 44px;
-  /* height: 49px; */
 }
 
 .client-icon.logo-2 {
   width: 40px;
-  /* height: 52px; */
 }
 
 .client-icon.logo-3 {
   width: 41px;
-  /* height: 34px; */
 }
 
 .client-icon.logo-4 {
   width: 80px;
-  /* height: 42px; */
 }
 
 .client-icon.logo-5 {
   width: 59px;
-  /* height: 47px; */
 }
 
 .client-icon.logo-6 {
@@ -454,14 +450,14 @@ a.logo > span {
   background-color: var(--hero-footer-bg-color);
 }
 
-.footer > .container {
+.footer .footer-content {
   display: block;
   padding-top: 60px;
   padding-bottom: 60px;
   margin-bottom: 0;
 }
 
-.container > .footer-logo {
+.footer-content > .footer-logo {
   margin-bottom: 20px;
   color: var(--white-color);
 }
@@ -491,6 +487,35 @@ a.logo > span {
   letter-spacing: 0.03em;
 
   text-decoration: none;
+}
+
+.footer-social {
+  padding-top: 72px;
+  margin-left: 70px;
+}
+
+.footer-social > .slogan {
+  margin-bottom: 20px;
+  
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  text-align: left;
+}
+
+.footer-social > .social-list {
+  padding: 0;
+}
+
+.footer-social .footer-link {
+  background-color: var(--footer-link-color);
+}
+
+.social-icon.white {
+  fill: var(--white-color);
 }
 
 /* _________________ */

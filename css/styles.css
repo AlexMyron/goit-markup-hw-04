@@ -467,15 +467,18 @@ body {
   background-color: var(--primary-color);
   color: var(--white-color);
 }
+
 .footer .container {
   display: flex;
 }
+
 .footer__slogan {
   width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-background-color);
 }
+
 .footer__social-title {
   margin-bottom: 16px;
   font-size: inherit;
